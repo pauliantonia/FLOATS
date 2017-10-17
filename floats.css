@@ -1,0 +1,40 @@
+.lista{
+  background-color: pink;
+  border: 1px solid black;
+  overflow: hidden;
+  /*text-align: center;*/
+  /* float hace que se colapse el div contenedor para esto se usa overflow */
+  /*clear: both;*/
+}
+
+li{
+  float: left;
+  height: 140px;
+  margin: 20px;
+  /*left: 200px;*/
+}
+
+.imagen1{
+  float: left;
+  height: 210px;
+  width: 320px;
+  margin: 0em 2em;
+}
+
+.imagen2 {
+  float: right;
+  margin: 0em 2em;
+}
+
+h1, h3, p {
+  text-align: center;
+}
+
+.fa-heart{
+    color: red;
+}
+
+.fa-magic{
+  color: blue;
+  margin-left: 620px;
+}
